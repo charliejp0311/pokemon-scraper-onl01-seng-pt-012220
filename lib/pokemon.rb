@@ -1,5 +1,5 @@
 class Pokemon
-<<<<<<< HEAD
+# <<<<<<< HEAD
   attr_accessor :id, :name, :type, :db
 
   def initialize(db, poke_hash = nil)
