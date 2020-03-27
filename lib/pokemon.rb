@@ -1,4 +1,5 @@
 class Pokemon
+<<<<<<< HEAD
   attr_accessor :id, :name, :type, :db
 
   def initialize(db, poke_hash = nil)
@@ -27,4 +28,13 @@ class Pokemon
     Pokemon.new(@db, attribute_hash)
   end
 
+=======
+  attr_accessor :id, :name, :type
+
+  def self.initialize(id,name, type, db)
+    @name = name
+    @type = type
+    @id = id
+  end
+>>>>>>> 43160f398a1775733b423d908d8107808bb0f481
 end
