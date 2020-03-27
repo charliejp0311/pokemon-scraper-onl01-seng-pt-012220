@@ -30,7 +30,7 @@ class Pokemon
 
 # =======
 #   attr_accessor :id, :name, :type
-# 
+#
 #   def self.initialize(id,name, type, db)
 #     @name = name
 #     @type = type
